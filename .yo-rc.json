@@ -1,0 +1,30 @@
+{
+  "@pnp/generator-spfx": {
+    "framework": "react",
+    "pnpFramework": "reactjs.plus",
+    "pnp-libraries": [
+      "@pnp/pnpjs",
+      "@pnp/spfx-property-controls",
+      "@pnp/spfx-controls-react",
+      "ouifr@6",
+      "rush@3.5"
+    ],
+    "pnp-ci": [
+      "azure"
+    ],
+    "pnp-vetting": [],
+    "spfxenv": "spo",
+    "pnp-testing": []
+  },
+  "@microsoft/generator-sharepoint": {
+    "environment": "spo",
+    "framework": "react",
+    "isCreatingSolution": false,
+    "version": "1.9.1",
+    "libraryName": "demo-solution",
+    "libraryId": "6f9e15ef-0a66-4467-9a1b-3724048001d3",
+    "packageManager": "npm",
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
